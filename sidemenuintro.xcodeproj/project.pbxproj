@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		CFD05A2026FC2D8A007C1A04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD05A1F26FC2D8A007C1A04 /* AppDelegate.swift */; };
 		CFD05A2226FC2D8A007C1A04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD05A2126FC2D8A007C1A04 /* SceneDelegate.swift */; };
-		CFD05A2426FC2D8A007C1A04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD05A2326FC2D8A007C1A04 /* ViewController.swift */; };
+		CFD05A2426FC2D8A007C1A04 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD05A2326FC2D8A007C1A04 /* MainViewController.swift */; };
 		CFD05A2726FC2D8A007C1A04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD05A2526FC2D8A007C1A04 /* Main.storyboard */; };
 		CFD05A2926FC2D8C007C1A04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD05A2826FC2D8C007C1A04 /* Assets.xcassets */; };
 		CFD05A2C26FC2D8C007C1A04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD05A2A26FC2D8C007C1A04 /* LaunchScreen.storyboard */; };
 		CFD05A3726FC2D8C007C1A04 /* sidemenuintroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD05A3626FC2D8C007C1A04 /* sidemenuintroTests.swift */; };
 		CFD05A4126FC2D8C007C1A04 /* sidemenuintroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD05A4026FC2D8C007C1A04 /* sidemenuintroUITests.swift */; };
 		CFD05A4326FC2D8C007C1A04 /* sidemenuintroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD05A4226FC2D8C007C1A04 /* sidemenuintroUITestsLaunchTests.swift */; };
+		CFD05A5126FC34B6007C1A04 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = CFD05A5026FC34B6007C1A04 /* SideMenu */; };
+		CFD05A5326FC3A94007C1A04 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD05A5226FC3A94007C1A04 /* SideMenuViewController.swift */; };
+		CFD05A5626FC3FF1007C1A04 /* SideMenuModel.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD05A5526FC3FF1007C1A04 /* SideMenuModel.swift .swift */; };
+		CFD05A5B26FC408C007C1A04 /* SideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD05A5926FC408C007C1A04 /* SideMenuCell.swift */; };
+		CFD05A5C26FC408C007C1A04 /* SideMenuCell.swift SideMenuCell.swift SideMenuCell.swift SideMenuCell.swift SideMenuCell.swift SideMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFD05A5A26FC408C007C1A04 /* SideMenuCell.swift SideMenuCell.swift SideMenuCell.swift SideMenuCell.swift SideMenuCell.swift SideMenuCell.xib */; };
+		CFD05A5E26FC516E007C1A04 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD05A5D26FC516E007C1A04 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,7 @@
 		CFD05A1C26FC2D8A007C1A04 /* sidemenuintro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sidemenuintro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD05A1F26FC2D8A007C1A04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFD05A2126FC2D8A007C1A04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CFD05A2326FC2D8A007C1A04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFD05A2326FC2D8A007C1A04 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CFD05A2626FC2D8A007C1A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFD05A2826FC2D8C007C1A04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFD05A2B26FC2D8C007C1A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,11 @@
 		CFD05A3C26FC2D8C007C1A04 /* sidemenuintroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sidemenuintroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD05A4026FC2D8C007C1A04 /* sidemenuintroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sidemenuintroUITests.swift; sourceTree = "<group>"; };
 		CFD05A4226FC2D8C007C1A04 /* sidemenuintroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sidemenuintroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFD05A5226FC3A94007C1A04 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		CFD05A5526FC3FF1007C1A04 /* SideMenuModel.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SideMenuModel.swift .swift"; sourceTree = "<group>"; };
+		CFD05A5926FC408C007C1A04 /* SideMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuCell.swift; sourceTree = "<group>"; };
+		CFD05A5A26FC408C007C1A04 /* SideMenuCell.swift SideMenuCell.swift SideMenuCell.swift SideMenuCell.swift SideMenuCell.swift SideMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "SideMenuCell.swift SideMenuCell.swift SideMenuCell.swift SideMenuCell.swift SideMenuCell.swift SideMenuCell.xib"; sourceTree = "<group>"; };
+		CFD05A5D26FC516E007C1A04 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD05A5126FC34B6007C1A04 /* SideMenu in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +113,9 @@
 			children = (
 				CFD05A1F26FC2D8A007C1A04 /* AppDelegate.swift */,
 				CFD05A2126FC2D8A007C1A04 /* SceneDelegate.swift */,
-				CFD05A2326FC2D8A007C1A04 /* ViewController.swift */,
+				CFD05A5826FC4045007C1A04 /* Cells */,
+				CFD05A5726FC4010007C1A04 /* Models */,
+				CFD05A5426FC3FC9007C1A04 /* Controllers */,
 				CFD05A2526FC2D8A007C1A04 /* Main.storyboard */,
 				CFD05A2826FC2D8C007C1A04 /* Assets.xcassets */,
 				CFD05A2A26FC2D8C007C1A04 /* LaunchScreen.storyboard */,
@@ -127,6 +141,33 @@
 			path = sidemenuintroUITests;
 			sourceTree = "<group>";
 		};
+		CFD05A5426FC3FC9007C1A04 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CFD05A2326FC2D8A007C1A04 /* MainViewController.swift */,
+				CFD05A5226FC3A94007C1A04 /* SideMenuViewController.swift */,
+				CFD05A5D26FC516E007C1A04 /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CFD05A5726FC4010007C1A04 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CFD05A5526FC3FF1007C1A04 /* SideMenuModel.swift .swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CFD05A5826FC4045007C1A04 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CFD05A5926FC408C007C1A04 /* SideMenuCell.swift */,
+				CFD05A5A26FC408C007C1A04 /* SideMenuCell.swift SideMenuCell.swift SideMenuCell.swift SideMenuCell.swift SideMenuCell.swift SideMenuCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +184,9 @@
 			dependencies = (
 			);
 			name = sidemenuintro;
+			packageProductDependencies = (
+				CFD05A5026FC34B6007C1A04 /* SideMenu */,
+			);
 			productName = sidemenuintro;
 			productReference = CFD05A1C26FC2D8A007C1A04 /* sidemenuintro.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +259,9 @@
 				Base,
 			);
 			mainGroup = CFD05A1326FC2D8A007C1A04;
+			packageReferences = (
+				CFD05A4F26FC34B6007C1A04 /* XCRemoteSwiftPackageReference "SideMenu" */,
+			);
 			productRefGroup = CFD05A1D26FC2D8A007C1A04 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFD05A2C26FC2D8C007C1A04 /* LaunchScreen.storyboard in Resources */,
+				CFD05A5C26FC408C007C1A04 /* SideMenuCell.swift SideMenuCell.swift SideMenuCell.swift SideMenuCell.swift SideMenuCell.swift SideMenuCell.xib in Resources */,
 				CFD05A2926FC2D8C007C1A04 /* Assets.xcassets in Resources */,
 				CFD05A2726FC2D8A007C1A04 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +306,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFD05A2426FC2D8A007C1A04 /* ViewController.swift in Sources */,
+				CFD05A5326FC3A94007C1A04 /* SideMenuViewController.swift in Sources */,
+				CFD05A2426FC2D8A007C1A04 /* MainViewController.swift in Sources */,
+				CFD05A5E26FC516E007C1A04 /* HomeViewController.swift in Sources */,
 				CFD05A2026FC2D8A007C1A04 /* AppDelegate.swift in Sources */,
 				CFD05A2226FC2D8A007C1A04 /* SceneDelegate.swift in Sources */,
+				CFD05A5626FC3FF1007C1A04 /* SideMenuModel.swift .swift in Sources */,
+				CFD05A5B26FC408C007C1A04 /* SideMenuCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,6 +676,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CFD05A4F26FC34B6007C1A04 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CFD05A5026FC34B6007C1A04 /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFD05A4F26FC34B6007C1A04 /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CFD05A1426FC2D8A007C1A04 /* Project object */;
 }
